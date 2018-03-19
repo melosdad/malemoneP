@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General app colors -->
+    <color name="colorPrimary">#882237</color>
+    <color name="colorPrimaryDark">#882237</color>
+    <color name="colorAccent">#47527d</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+
+    <!-- Background colors -->
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+
+    <!-- Text colors -->
+    <color name="text_gray">#b5b5b5</color>
+    <color name="text_black">#3a3939</color>
+    <color name="text_white">#ffffff</color>
+
+    <!-- Input field colors -->
+    <color name="input_hint">#999999</color>
+    <color name="input_login">#222222</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+
+    <!-- Button colors -->
+    <color name="btn_primary_txt">#26ae90</color>
+    <color name="btn_primary_bg">#eceef1</color>
+
+    <!-- General colors -->
+    <color name="white">#ffffff</color>
+
+</resources>

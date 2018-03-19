@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.malemone.apps.malemone.Fragments.Fragment_Share">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Instagram"
+            android:layout_height="@dimen/dp_50"
+            android:textColor="@drawable/btn_black_to_red_text_selector"
+            android:drawableLeft="@drawable/btn_insta_selector"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/sp_16"
+            android:id="@+id/ctv_insta"
+            android:drawablePadding="@dimen/dp_15"
+            style="@style/reg_text"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line1"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_height="@dimen/dp_.5" />
+        <TextView
+            android:text="Facebook"
+            android:layout_height="@dimen/dp_50"
+            android:clickable="true"
+            android:textColor="@drawable/btn_black_to_red_text_selector"
+            android:drawableLeft="@drawable/btn_fb_selector"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/sp_16"
+            android:id="@+id/ctv_fb"
+            android:drawablePadding="@dimen/dp_15"
+            style="@style/reg_text"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line1"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_height="@dimen/dp_.5" />
+        <TextView
+            android:text="Whats App"
+            android:layout_height="@dimen/dp_50"
+            android:textColor="@drawable/btn_black_to_red_text_selector"
+            android:drawableLeft="@drawable/btn_whats_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/sp_16"
+            android:id="@+id/ctv_whats"
+            android:drawablePadding="@dimen/dp_15"
+            style="@style/reg_text"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line1"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_height="@dimen/dp_.5" />
+        <TextView
+            android:text="Twitter"
+            android:layout_height="@dimen/dp_50"
+            android:textColor="@drawable/btn_black_to_red_text_selector"
+            android:drawableLeft="@drawable/btn_twitter_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/sp_16"
+            android:id="@+id/ctv_twitter"
+            android:drawablePadding="@dimen/dp_15"
+            style="@style/reg_text"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line1"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_height="@dimen/dp_.5" />
+
+        <TextView
+            android:text="Message"
+            android:layout_height="@dimen/dp_50"
+            android:textColor="@drawable/btn_black_to_red_text_selector"
+            android:drawableLeft="@drawable/btn_msg_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/sp_16"
+            android:id="@+id/ctv_msg"
+            android:drawablePadding="@dimen/dp_15"
+            style="@style/reg_text"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line1"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_height="@dimen/dp_.5" />
+    </LinearLayout>
+</ScrollView>

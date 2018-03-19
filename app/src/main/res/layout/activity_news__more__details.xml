@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context="com.malemone.apps.malemone.News_More_Details">
+
+
+    <include layout="@layout/page_header2"/>
+
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/hospital_icn_sel"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/line3"
+        android:clickable="true"
+        android:layout_height="@dimen/dp_.5"
+        android:contentDescription="@string/img_description"/>
+
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Title"
+        android:textAlignment="center"
+        android:textSize="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/ic_thumb_up_black_24dp"
+            />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/ic_share_black_24dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/line3"
+        android:clickable="true"
+        android:layout_height="@dimen/dp_.5"
+        android:contentDescription="@string/img_description"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/articleContent"
+            android:text="Article Content kjhdfkshkfhdskfhskdfhsdkjfh kdsjfhkjdshfkjsdhfkjdshf kjsdhfksdjhfkjdshfk sdfkjsdhfkjds fdhfkjdshf kdshfk dsfhksdhf ksdhf ksdhfkdsjfh kdsjfhk dsjfhk jdshfkdsjh fkdsjhfkds jhfkdsjfhksd hfkdsjfhkds hf kdshf kdsfhkdshfkds hfk dsjhfksdjhfk dsjfh ksdjhfkdsjh fkdsjfh ksdhfksd hfksdjfh ksdjfhkds fhkdsjhf kdsjfhdsk fhkdsjfhsdk hfkdsjhf ksdjhfkdsjhfk dsjfh kdsjhf ksdjhf ksdjfhdksjh fksdf dksf kdsf kds fdsj fhsdkhfdskjfh skdjfhkshfklshdfksjhdfkjdshfklsdhflksdjhfdk dskj hdfkjshkfjghsdkjfh gkdjfshgkjdsgh dksghl kshgsdkjhgkfjdshgfk jsgkjfhkjsghfkjghsk fgsdkjhg ksdfhgdskjfhgdskjf hgsdjfg"
+            android:padding="@dimen/dp_10"/>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

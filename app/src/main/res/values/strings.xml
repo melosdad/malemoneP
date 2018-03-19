@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Malemone</string>
+
+    <!-- Main Navigation strings -->
+    <string name="title_home">News Updates</string>
+    <string name="title_directions">Find Destination</string>
+    <string name="title_info">@string/title_nearby_places</string>
+    <string name="title_nearby_places">Near By Place</string>
+    <string name="title_shoutout">Shout Out</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- General strings -->
+    <string name="img_description">Image description</string>
+    <string name="txt_description">Text description</string>
+
+    <!--Form fields strings -->
+    <string name="field_email_address">Email Address</string>
+    <string name="field_password">Password</string>
+    <string name="field_repeat_password">Repeat password</string>
+    <string name="field_terms_and_conditions">Terms and conditions</string>
+    <string name="field_phone_number">Phone number</string>
+    <string name="field_full_name">Full Name</string>
+    <string name="field_where_are_you">Where are you</string>
+    <string name="field_number_plate">Provide vehicle number plate</string>
+    <string name="field_shoutout_subject">Shoutout subject</string>
+    <string name="field_shoutout_message">Write your shout message here</string>
+    <string name="field_starting_point">Enter stating point</string>
+    <string name="field_destination_point">Enter destination point</string>
+
+    <!-- Form buttons -->
+    <!-- Strings for button text -->
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login.</string>
+    <string name="btn_find_destination">FIND DESTINATION</string>
+    <string name="btn_send_shoutout">SHOUT</string>
+
+    <!-- Strings related to register -->
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_register_2">Register Continues</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="register_as_new_user">Register as new user?</string>
+    <string name="login_registered_user">Already have an account, login?</string>
+    <string name="auth_failed">Authorization failed.</string>
+    <string name="forgot_password_msg">Please enter your email address to retrieve your password.</string>
+    <string name="reset_password">Reset password</string>
+    <string name="back">Back</string>
+
+    <!-- Settings Activity string -->
+    <string name="s_m_about_us">About Us</string>
+    <string name="s_m_profile">Profile Settings</string>
+    <string name="s_m_share">Share Malemone</string>
+    <string name="s_m_feedback">Feedback</string>
+    <string name="s_m_logout">Logout</string>
+
+    <!-- String for Destination Activity -->
+    <string name="lblDestination">From Tembisa to Alexandra</string>
+    <string name="tabTaxi">Via Taxi</string>
+    <string name="tabBus">Via Bus</string>
+    <string name="tabTrain">Via Train</string>
+    <string name="fare">R14.00 - R16.00</string>
+    <string name="busFare">R6.00 - R10.00</string>
+    <string name="trainFare">R5.00 - R8.00</string>
+    <string name="fareDisclaimer">Prices may vary due to traffics, weather or other factors. Estimates does not include discounts.</string>
+    <string name="travelDistance">Distance:</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+
+    <!-- Settings Activity -->
+    <string name="aboutHeading">What is Malemone?</string>
+    <string name="aboutDesc">Hello World</string>
+    <string name="feedbackHeader">FEEDBACK</string>
+    <string name="profileHeader">PROFILE</string>
+    <string name="shareHeader">SHARE</string>
+    <string name="aboutHeader">ABOUT</string>
+
+
+</resources>

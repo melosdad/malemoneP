@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.malemone.apps.malemone.Fragments.HomeMainFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dp_55">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/line3"
+            android:clickable="true"
+            android:layout_height="@dimen/dp_.5"
+            android:contentDescription="@string/img_description"/>
+
+        <ListView
+            android:id="@+id/list_view_home"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/material_blue_grey_800"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="false" />
+
+    </LinearLayout>
+
+</FrameLayout>

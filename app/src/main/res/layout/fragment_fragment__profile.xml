@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.malemone.apps.malemone.Fragments.Fragment_Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="60dp">
+
+
+        <EditText
+            android:id="@+id/input_register_fullname"
+            style="@style/reg_text"
+            android:layout_height="@dimen/dp_55"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="@string/field_full_name"
+            android:inputType="text"
+            android:maxLength="32" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_.5"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line"
+            android:contentDescription="@string/img_description" />
+
+
+        <EditText
+            android:id="@+id/input_register_cell"
+            style="@style/reg_text"
+            android:layout_height="@dimen/dp_55"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="Cell Number"
+            android:inputType="textPassword"
+            android:maxLength="32" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_.5"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line"
+            android:contentDescription="@string/img_description" />
+
+        <EditText
+            android:id="@+id/input_old_password"
+            style="@style/reg_text"
+            android:layout_height="@dimen/dp_55"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="Old Password"
+            android:inputType="textPassword"
+            android:maxLength="32" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_.5"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line"
+            android:contentDescription="@string/img_description" />
+
+        <EditText
+            android:id="@+id/input_new_password"
+            style="@style/reg_text"
+            android:layout_height="@dimen/dp_55"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:maxLength="32" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_.5"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/line"
+            android:contentDescription="@string/img_description" />
+
+        <Button
+            android:id="@+id/button_update"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="Update Profile"
+            android:textColor="@drawable/btn_primary_color_text_selector_reverse"
+            android:textSize="@dimen/sp_18"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
